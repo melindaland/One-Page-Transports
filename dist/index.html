@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quelle est la meilleure façon de se déplacer ?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rammetto+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#intro" class="active">🏠</a></li>
+            <li><a href="#marche">🚶‍♀️‍➡️</a></li>
+            <li><a href="#velo">🚲</a></li>
+            <li><a href="#train">🚃</a></li>
+            <li><a href="#bus">🚌</a></li>
+            <li><a href="#voiture">🚘</a></li>
+            <li><a href="#fin">🏁</a></li>
+        </ul>
+    </nav>
+
+    <!-- Intro -->
+    <section id="intro" class="section2">
+        <h1 class="titre">Quelle est la meilleure façon de se déplacer ?</h1>
+        <div class="scroll-prompt">
+            <span>Scroller pour commencer l’expérience ⬇️</span>
+        </div>  
+        <img class="img1" src="img/Terre-image.png" alt="terre">
+    </section>
+
+    <!-- Vidéo -->
+    <section id="video" class="section1">
+        <iframe width="1250" height="600" src="https://www.youtube.com/embed/1lyWtFVwW6Y" title="Using Live Server and Live Share in VS Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>    
+    </section>
+
+    <!-- La marche -->
+    <section id="marche" class="section1">      
+        <div class="container my-5 position-relative ">
+            <div class="row justify-content-center g-4 start-25">
+                <!-- AVANTAGES -->
+                <div data-aos="fade-right" data-aos-duration="2000" class="col-auto">
+                    <div class="box avantages-box">
+                        <h2>Avantages</h2>
+                        <div class="item" >
+                            <img src="img/icone2.png" alt="icon" class="icon">         
+                            <p>Il génère 0 kg de CO₂ quelle que soit la distance parcourue. </p>
+                        </div>
+                        <div class="item" >
+                            <img src="img/icone3.png" alt="icon" class="icon">         
+                            <p>La solution la plus écologique pour la planète. </p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone4.png" alt="icon" class="icon">         
+                            <p>La marche donne de nombreux avantages notamment pour la santé.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- INCONVÉNIENTS -->
+                <div data-aos="fade-left" data-aos-duration="2000" class="col-auto">
+                    <div class="box inconvenient-box">
+                        <h2>Inconvénients</h2>
+                        <div class="item">
+                            <img src="img/icone5.png" alt="icon" class="icon">         
+                            <p>Plus la distance augmente, plus les personnes utilisent moins la marche.</p>
+                        </div>
+                        <div class="item" >
+                            <img src="img/icone6.png" alt="icon" class="icon">         
+                            <p>La marche, bien que bénéfique, peut devenir contraignante face aux intempéries.</p>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </section>
+    <!-- Graphique 1 -->
+    <section id="graphique1" class="section2">
+        <div class="graphique-left1">
+            <h3 class="sous-titre">Distance moyenne parcourue en km par jour selon les différents moyens de transport</h3>
+            <div class="graphique-svg">
+                <iframe src="https://lottie.host/embed/8c42b598-0f5c-406a-bdcb-37e488d318ba/EBbZ2YrTSp.lottie" width="500" height="500"></iframe>
+            </div>
+            <p>Source : DEPELI Altan</p>
+        </div>
+        <div class="perso-right1">
+            <div class="bulle1">
+                <p>Quelle que soit la distance à parcourir, les personnes ont tendance à privilégier la voiture et les transports en commun car ils en dépendent. Au total, seulement 15 % des personnes utilisent la marche au quotidien, ce qui reste un pourcentage faible.</p>
+            </div>
+            <img src="img/perso-visage.png" alt="Maria" />
+        </div>
+    </section>
+
+
+
+    <!-- Le vélo -->
+    <section id="velo" class="section1">
+        <div class="container my-5 position-relative">
+            <div class="row justify-content-center g-4">
+                <!-- AVANTAGES -->
+                <div data-aos="flip-right" data-aos-duration="2000" class="col-md-4">
+                    <div class="box avantages-box">
+                        <h2>Avantages</h2>
+                        <div class="item">
+                            <img src="img/icone7.png" alt="icon" class="icon">         
+                            <p>Le vélo permet d’éviter les embouteillages en réduisant ainsi le temps de trajet.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone8.png" alt="icon" class="icon">         
+                            <p>Pédaler régulièrement améliore la condition physique, renforce le système cardiovasculaire et réduit le stress.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone3.png" alt="icon" class="icon">         
+                            <p>Le vélo est un mode de transport propre, contribuant ainsi à la protection de l’environnement.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- INCONVÉNIENTS -->
+                <div data-aos="flip-left" data-aos-duration="2000" class="col-md-4">
+                    <div class="box inconvenient-box">
+                        <h2>Inconvénients</h2>
+                        <div class="item">
+                            <img src="img/icone9.png" alt="icon" class="icon">         
+                            <p>Parcourir de longues distances à vélo peut être épuisant.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone10.png" alt="icon" class="icon">         
+                            <p>Pour les trajets longs, les cyclistes doivent souvent utiliser les autres modes de transport.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone11.png" alt="icon" class="icon">         
+                            <p>Trouver un emplacement sécurisé pour garer son vélo peut être difficile en ville.</p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- IMAGE VELO -->
+                <div class="col-md-4 d-flex justify-content-center align-self-end mt-5">
+                    <img class="img-fluid" data-aos="fade-right" src="img/velo.png" alt="Vélo">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Graphique 2 -->
+    <section id="graphique2" class="section2">
+        <div class="perso-right2">
+            <div class="bulle2">
+                <p>On observe une augmentation des infrastructures cyclables dans toutes les régions. En faisant une moyenne de ces résultats, on constate une augmentation de 5 % ce qui montre une progression de l’infrastructure pour vélo.</p>
+            </div>
+            <img src="img/perso-visage.png" alt="Maria" />
+        </div>
+        <div class="graphique-left2">
+            <h3 class="sous-titre";>Augmentation de pistes cyclables par région en France en %</h3>
+            <div class="graphique-svg">
+                <iframe src="https://lottie.host/embed/1f3a2354-454c-43ae-8e8b-ce683cb1c108/eRY2GtgCC2.lottie" width="500" height="500"></iframe>
+            </div>
+            <p>Source : ALAND Melinda</p>
+        </div>
+    </section>
+    
+
+
+    <!-- Le train -->
+    <section   id="train" class="section1">
+        <div class="container my-5 position-relative ">
+            <div class="row justify-content-center g-4 start-25">
+                <!-- AVANTAGES -->
+                <div data-aos="zoom-in-down" data-aos-duration="2000" class="col-auto">
+                    <div class="box avantages-box">
+                        <h2>Avantages</h2>
+                        <div class="item">
+                            <img src="img/icone12.png" alt="icon" class="icon">         
+                            <p>Le TER émet seulement 0,39 kg de CO₂ pour 40 km parcourus, ce qui en fait un mode de transport plus écologique que la voiture individuelle.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone13.png" alt="icon" class="icon">         
+                            <p>C'est le 3ᵉ moyen de transport le plus efficace et accessible.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone14.png" alt="icon" class="icon">         
+                            <p>Contrairement au vélo ou à la marche, prendre le TER ne demande aucun effort physique.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- INCONVÉNIENTS -->
+                <div data-aos="zoom-in-up" data-aos-duration="2000"  class="col-auto">
+                    <div class="box inconvenient-box">
+                        <h2>Inconvénients</h2>
+                        <div class="item">
+                            <img src="img/icone22.png" alt="icon" class="icon">         
+                            <p>14,6 % des trains enregistrent des retards, dont 15,2 % concernent le TER.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone16.png" alt="icon" class="icon">         
+                            <p>Le TER représente 13 % des trajets effectués au quotidien.</p>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </section>
+    <!-- Graphique 3 -->
+    <section id="graphique3" class="section2">
+        <div class="graphique-left1">
+            <h3 class="sous-titre" style="margin-bottom: 10px;">Répartition de retards dans le secteur ferroviaire en 2023</h3>
+            <div class="graphique-svg">
+                <iframe src="https://lottie.host/embed/a2d97d53-6990-4188-926a-b81a9174dad0/QzUleaTjwg.lottie" width="500" height="500"></iframe></iframe>
+            </div>
+            <p>Source : DRINNHAUSEN Lou</p>
+        </div>
+        <div class="perso-right1">
+            <div class="bulle1">
+                <p>D’après le bilan AQST, 14,6 % des trains enregistrent des retards, dont 15,2 % concernent spécifiquement le TER. Ces retards peuvent être un frein à l’adoption du train.</p>
+            </div>
+            <img src="img/perso-visage.png" alt="Maria" />
+        </div>
+    </section>
+
+
+    <!-- Le bus -->
+    <section id="bus" class="section1">
+        <div class="container my-5 position-relative ">
+            <div class="row justify-content-center g-4 start-25">
+                <!-- AVANTAGES -->
+                <div data-aos="zoom-in" data-aos-duration="2000" class="col-auto">
+                    <div class="box avantages-box">
+                        <h2>Avantages</h2>
+                        <div class="item">
+                            <img src="img/icone19.png" alt="icon" class="icon">         
+                            <p>Un bus électrique émet 0,87 kg de CO₂ pour 40 km parcourus, ce qui en fait une alternative plus écologique aux voitures.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone15.png" alt="icon" class="icon">         
+                            <p>Grâce à l'extension du réseau de bus, l'attente est réduite, rendant ce mode de transport plus fiable et pratique.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- INCONVÉNIENTS -->
+                <div  data-aos="zoom-in" data-aos-duration="2000" class="col-auto">
+                    <div class="box inconvenient-box">
+                        <h2>Inconvénients</h2>
+                        <div class="item">
+                            <img src="img/icone20.png" alt="icon" class="icon">         
+                            <p>Un bus thermique émet 4,43 kg de CO₂ pour 40 km parcourus.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone21.png" alt="icon" class="icon">         
+                            <p>Le prix des abonnements a augmenté rendant ce mode de transport plus coûteux pour les étudiants.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone10.png" alt="icon" class="icon">         
+                            <p>La circulation dense sur les axes routiers peut allonger le temps de trajet.</p>
+                        </div>
+                    </div>
+                </div>     
+                <img class="col-6" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" width="100%" src="img/bus.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Graphique 4 -->
+    <section id="graphique4" class="section2">
+        <div class="perso-right2">
+            <div class="bulle2">
+                <p>Les bus dégagent 2 662,59 kg de CO₂ par km. Toutefois, cet impact environnemental peut être relativisé par le fait qu'un bus transporte plusieurs dizaines de passagers, ce qui permet d'optimiser l'impact environnemental global.</p>
+            </div>
+            <img src="img/perso-visage.png" alt="Maria"/>
+        </div>
+        <div class="graphique-left2">
+            <h3 class="sous-titre">Répartition de bus en France - Janvier 2023</h3>
+            <div class="graphique-svg">
+                <iframe src="https://lottie.host/embed/11bb5179-b934-4b96-a7f5-29172a788052/J68f5fvE5s.lottie" width="500" height="500"></iframe>
+            </div>
+            <p>Source : DENIZ Baran</p>
+        </div>
+    </section>
+
+
+    <!-- La voiture -->
+    <section id="voiture" class="section1">
+        <div class="container  my-5 position-relative ">
+            <div class="row justify-content-center top-0 g-4 start-25">
+                <!-- AVANTAGES -->
+                <div data-aos="flip-left" data-aos-duration="2000"  class="col-auto">
+                    <div class="box avantages-box">
+                        <h2>Avantages</h2>
+                        <div class="item">
+                            <img src="img/icone19.png" alt="icon" class="icon">         
+                            <p>Les véhicules électriques connaissent une augmentation de 551 % depuis 2016.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone15.png" alt="icon" class="icon">         
+                            <p>la voiture permet d’arriver rapidement à destination, offrant ainsi une grande flexibilité aux étudiants.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="col-5 pt-5 " data-aos="fade-zoom-in"
+                data-aos-offset="300"
+                data-aos-easing="ease-in"  src="img/voiture.png" alt="">   
+                <!-- INCONVÉNIENTS -->
+                <div data-aos="flip-right" data-aos-duration="2000"  class="col-auto">
+                    <div class="box inconvenient-box">
+                        <h2>Inconvénients</h2>
+                        <div class="item">
+                            <img src="img/icone20.png" alt="icon" class="icon">         
+                            <p>La voiture thermique émet environ 8,7 kg de CO₂ pour chaque 40 kilomètres parcourus.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone21.png" alt="icon" class="icon">         
+                            <p>Le coût de l'essence a considérablement augmenté ces dernières années.</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/icone10.png" alt="icon" class="icon">         
+                            <p>Les embouteillages sur la route sont de plus en plus fréquents et générent une perte de temps importante.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- Graphique 5 -->
+    <section id="graphique5" class="section2">
+        <div class="graphique-left1">
+            <h3 class="sous-titre" style="margin-bottom: 5px;">Évolution des ventes de véhicules par type de motorisation (2016-2022)</h3>
+            <div class="graphique-svg">
+                <iframe src="https://lottie.host/embed/0911558f-cb20-4484-996d-b32253d7bae3/pWHNhxSzCy.lottie" width="500" height="500"></iframe></iframe>
+            </div>
+                <p>Source : SCHMITT Lola</p>
+            </div>
+            <div class="perso-right1">
+                <div class="bulle1">
+                    <p>D’après SDES, les véhicules électriques connaissent une forte progression : leurs immatriculations ont bondi de 551 % depuis 2016. Ce développement est encouragé par des mesures qui pourraient réduire la consommation d’énergie de 40 % d’ici 2050. </p>
+                </div>
+                <img src="img/perso-visage.png" alt="Maria" />
+            </div>
+        </div>
+    </section>
+
+    <section id="fin" class="section1">
+        <iframe src="https://lottie.host/embed/12275d91-9e77-4aff-aa6e-32005041c9c9/Yul9WMsrs3.lottie" width="600" height="600"></iframe>
+        <p>Source : ASLAN Baran</p>            
+    </section>
+
+    <section id="retour" class="section2">
+        <h2 class="titre text-white">ET VOUS ? VOUS CHOISIREZ QUOI ?</h2>
+    </section>
+
+
+    <!-- Bouton pour remonter en haut -->
+    <button id="back-to-top">↑</button>
+
+    <!-- GSAP et script JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
